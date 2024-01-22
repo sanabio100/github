@@ -1,0 +1,115 @@
+/* Estilo global para o corpo (body) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilo para a seção de destaque (highlight - Hero section) */
+.highlight {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.highlight p {
+    font-size: 1.2em;
+}
+
+.highlight a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#projects {
+    background-color: #fff;
+    padding: 2em;
+}
+
+/* Estilo para o formulário de captação de leads (lead-form) */
+.lead-form {
+    max-width: 600px;  /* Define a largura máxima para o formulário de captação. */
+    margin: 20px auto;  /* Adiciona margens e centraliza o formulário horizontalmente. */
+    background-color: #f8f8f8;
+    padding: 20px;  /* Adiciona preenchimento interno ao formulário. */
+    background-color: #f0f0f0;  /* Define a cor de fundo para o formulário. */
+    border-radius: 5px;  /* Adiciona bordas arredondadas ao formulário. */
+}
+
+/* Estilo para o formulário de captação de leads (lead-form) */
+.lead-form {
+    max-width: 600px;  /* Define a largura máxima para o formulário de captação. */
+    margin: 20px auto;  /* Adiciona margens e centraliza o formulário horizontalmente. */
+    padding: 20px;  /* Adiciona preenchimento interno ao formulário. */
+    background-color: #f0f0f0;  /* Define a cor de fundo para o formulário. */
+    border-radius: 5px;  /* Adiciona bordas arredondadas ao formulário. */
+}
+
+/* Estilo para rótulos (labels) */
+label {
+    display: block;  /* Define o rótulo como bloco para ocupar a largura total disponível. */
+    margin-bottom: 5px;  /* Adiciona margem inferior ao rótulo. */
+}
+
+/* Estilo para campos de entrada de texto e área de texto (input, textarea) */
+input, textarea {
+    width: 100%;  /* Define a largura total para os campos de entrada. */
+    padding: 8px;  /* Adiciona preenchimento interno aos campos de entrada. */
+    margin-bottom: 10px;  /* Adiciona margem inferior aos campos de entrada. */
+}
+
+/* Estilo para botão (button) */
+button {
+    background-color: #333;  /* Define a cor de fundo para o botão. */
+    color: #fff;  /* Define a cor do texto no botão. */
+    padding: 10px 15px;  /* Adiciona preenchimento interno ao botão. */
+    border: none;  /* Remove a borda do botão. */
+    border-radius: 5px;  /* Adiciona bordas arredondadas ao botão. */
+    cursor: pointer;  /* Adiciona um cursor apontador ao botão. */
+}
+
+/* Estilo para a seção de depoimentos (testimonials) */
+.testimonials {
+    background-color: #f8f8f8;  /* Define a cor de fundo para a seção de depoimentos. */
+    padding: 20px;  /* Adiciona preenchimento interno à seção de depoimentos. */
+    text-align: center;  /* Centraliza o texto na seção de depoimentos. */
+}
+
+/* Estilo para depoimento individual (testimonial) */
+.testimonial {
+    margin-bottom: 20px;  /* Adiciona margem inferior aos depoimentos individuais. */
+}
+
+/* Estilo para o rodapé (footer) */
+footer {
+    background-color: #333;  /* Define a cor de fundo para o rodapé. */
+    color: #fff;  /* Define a cor do texto no rodapé. */
+    padding: 20px;  /* Adiciona preenchimento interno ao rodapé. */
+    text-align: center;  /* Centraliza o texto no rodapé. */
+}
+
+/* Estilo para links sociais no rodapé (social-links) */
+.social-links a {
+    color: #fff;  /* Define a cor do texto nos links de redes sociais. */
+    text-decoration: none;  /* Remove a decoração de texto nos links. */
+    margin: 0 10px;  /* Adiciona margens nos links de redes sociais. */
+}
+
+/* Estilo para informações de contato no rodapé (contact-info) */
+.contact-info p {
+    margin: 10px 0;  /* Adiciona margem ao redor dos parágrafos de informações de contato. */
+}
+

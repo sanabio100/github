@@ -1,0 +1,250 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;   
+ }
+.header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+  }
+
+h1 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  padding: 20px;
+}
+/* HERO-SECTION */
+.hero {
+    background-color: #ddd;
+    text-align: center;
+    padding: 2em;
+}
+/* PORTFOLIO */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 20px; /*espaço entre cards*/
+    padding: 20px;
+    margin: auto; /* Centralizando o contêiner */
+    justify-content: center;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: auto; /* Centralizando os cards */
+    padding: 10px; 
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 200px; 
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas para tablets */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-container {
+        grid-template-columns: 1fr; /* Uma coluna para celulares */
+    }
+}
+.project-card:hover {
+    transform: scale(1.05);
+
+}
+/* BLOG */
+.header-section {
+    position: relative;
+    text-align: center;
+    color: #fff; /* Cor do texto */
+}
+
+.header-section img {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h2 {
+    font-size: 2em; /* Tamanho da fonte do título */
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 1.2em; /* Tamanho da fonte do parágrafo */
+    margin: 0;
+    
+}
+/*ESTILO PARA IMAGEM*/
+.header-image {
+    height: 100%;
+    width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    object-fit: cover;
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura da seção */
+    display: block; /* Remove espaços extras abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+/* Estilos do contêiner do blog (página do blog) */
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Espaço entre os cards de postagem */
+    padding: 20px;
+    margin: auto; /* Centralizando o contêiner */
+    justify-content: center;
+}
+/* Sobre  */
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-left-column img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-right-column {
+    max-width: 600px;
+}
+
+/* Estilos do card de postagem (página do blog) */
+.blog-post {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo transparente */
+    height: 200px; /* Altura fixa dos cards de postagem */
+}
+
+.blog-post:hover {
+    transform: scale(1.05);
+}
+/*CONTATO - SEÇÃO*/
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 1em;
+  }  
+  nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+  }  
+  .contato-section {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+  }  
+  .titulo-contato, .informacoes-contato h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }  
+  .contato-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }  
+  .informacoes-contato {
+    flex-basis: calc(50% - 10px);
+  }  
+  .formulario-contato {
+    flex-basis: calc(50% - 10px);
+  }  
+  .contato-form label {
+    display: block;
+    margin-bottom: 0.5em;
+  }  
+  .contato-form input,
+  .contato-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+  }  
+  .contato-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }  
+  
+
+/* Estilos do Rodapé*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 100%;
+
+}
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+  }
